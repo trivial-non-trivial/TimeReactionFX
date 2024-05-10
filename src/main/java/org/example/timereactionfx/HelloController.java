@@ -103,7 +103,6 @@ public class HelloController extends GameApplication {
 
         FXGL.onKeyDown(KeyCode.RIGHT, () -> {
             stop = Instant.now();
-            System.out.println("Right");
             if (randomDirection.equals(">")){
                 addResult(false);
             } else {
@@ -117,7 +116,6 @@ public class HelloController extends GameApplication {
 
         FXGL.onKeyDown(KeyCode.LEFT, () -> {
             stop = Instant.now();
-            System.out.println("Left");
             if (randomDirection.equals("<")){
                 addResult(true);
             }
